@@ -1,0 +1,23 @@
+.country{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+
+    .country__flag{
+        width: 20vw;
+    }
+
+    .country__button{
+        height: 50px;
+        width: 50%;
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 5%;
+        border: none;
+        border-radius: 2px;
+        &:focus{
+outline: none;
+        }
+    }
+}

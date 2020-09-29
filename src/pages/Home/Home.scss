@@ -1,0 +1,29 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+  .home__filter-error{
+    color: red;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 2rem;
+ 
+  }
+
+  .home__main-menu{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+    .home__country-container {
+      height: 70vh;
+      overflow: scroll;
+    }
+   
+  }
+}
